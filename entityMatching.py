@@ -49,7 +49,7 @@ atypes2 = em.get_attr_types(B)
 block_c = em.get_attr_corres(A, B)
 block_c['corres'].clear()
 block_c['corres'] = [('ACTORS', 'ACTORS'), ('DIRECTORS', 'DIRECTORS'), ('NAME', 'NAME'),
-                     ('TAGS', 'TAGS'), ('REGION', 'REGIONS'), ('LANGUAGE', 'LANGUAGES'), ('RELEASE_YEAR', 'YEAR')]
+                     ('TAGS', 'TAGS'), ('REGIONS', 'REGIONS'), ('LANGUAGES', 'LANGUAGES'), ('RELEASE_YEAR', 'YEAR')]
 tok = em.get_tokenizers_for_matching()
 sim = em.get_sim_funs_for_matching()
 feature_table = em.get_features(A, B, atypes1, atypes2, block_c, tok, sim)
