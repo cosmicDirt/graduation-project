@@ -51,7 +51,6 @@ AB.fillna('', inplace=True)
 AB0 = AB[AB['group'] == '0']
 AB = AB[AB['group'] != '0']
 
-
 # 定义分组后各属性融合规则
 def ABFusion(grouped):
     cols = grouped.columns.tolist()
@@ -81,4 +80,6 @@ def ABFusion(grouped):
 
 # 分组聚合+拼接
 ABfusion = AB.groupby(['group']).apply(ABFusion).reset_index()
+ABfusion = pd.concat([ABfusion,AB0])
 ABfusion.to_csv('ABfusion.csv')
+

@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6122bd0d-23d4-4f6a-8ac9-33961a095225" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABfusion.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dataFusion.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataFusion.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/entityMatching.py" beforeDir="false" afterPath="$PROJECT_DIR$/entityMatching.py" afterDir="false" />
     </list>
@@ -36,7 +37,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.dataFusion">
+  <component name="RunManager" selected="Python.missingImputation">
     <configuration name="dataFusion" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="code" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -73,6 +74,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/entityMatching.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="missingImputation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/missingImputation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -127,8 +150,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.dataFusion" />
+        <item itemvalue="Python.missingImputation" />
         <item itemvalue="Python.entityMatching" />
+        <item itemvalue="Python.dataFusion" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.patternMatching" />
       </list>
@@ -159,6 +183,15 @@
       <workItem from="1619405440243" duration="12485000" />
       <workItem from="1619492083488" duration="1598000" />
       <workItem from="1619495409707" duration="8477000" />
+      <workItem from="1619529350923" duration="10803000" />
+      <workItem from="1619932531287" duration="13600000" />
+      <workItem from="1619972636292" duration="761000" />
+      <workItem from="1620011349630" duration="2501000" />
+      <workItem from="1620016832321" duration="10284000" />
+      <workItem from="1620037395440" duration="7962000" />
+      <workItem from="1620097603722" duration="301000" />
+      <workItem from="1620100362000" duration="12081000" />
+      <workItem from="1620131336661" duration="6257000" />
     </task>
     <servers />
   </component>
@@ -166,42 +199,46 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="499" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1620104047140">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1620104047140" />
     <state width="601" height="466" key="DebuggerActiveHint" timestamp="1619279680587">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="601" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1619279680587" />
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1619508021210">
+    <state width="1493" height="269" key="GridCell.Tab.0.bottom" timestamp="1620144981367">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1619508021210" />
-    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1619508021210">
+    <state width="1493" height="269" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1620144981367" />
+    <state width="1493" height="269" key="GridCell.Tab.0.center" timestamp="1620144981366">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1619508021210" />
-    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1619508021210">
+    <state width="1493" height="269" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1620144981366" />
+    <state width="1493" height="269" key="GridCell.Tab.0.left" timestamp="1620144981366">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1619508021210" />
-    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1619508021210">
+    <state width="1493" height="269" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1620144981366" />
+    <state width="1493" height="269" key="GridCell.Tab.0.right" timestamp="1620144981366">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1619508021210" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1619508021210">
+    <state width="1493" height="269" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1620144981366" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1620114570052">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1619508021210" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1619508021210">
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1620114570052" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1620114570052">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1619508021210" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1619508021210">
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1620114570052" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1620114570052">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1619508021210" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1619508021210">
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1620114570052" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1620114570052">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1619508021210" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1620114570052" />
     <state x="272" y="57" key="SettingsEditor" timestamp="1617362826666">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -210,15 +247,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="775" height="419" key="XDebugger.FullValuePopup/0.0.1536.824@0.0.1536.824" timestamp="1619427334076" />
-    <state x="461" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1619495416615">
+    <state x="461" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1620131337573">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="461" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1619495416615" />
+    <state x="461" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1620131337573" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="imputed1[['REGIONS','REGIONS_imputed']]" language="Python" />
+        <watch expression="imputed1[['LANGUAGES','LANGUAGES_imputed']]" language="Python" />
+        <watch expression="imputed2[['DOUBAN_SCORE','DOUBAN_SCORE_imputed']]" language="Python" />
+        <watch expression="X_filled_mean[index]" language="Python" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/code$entityMatching.coverage" NAME="entityMatching Coverage Results" MODIFIED="1619251461759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/code$entityMatching.coverage" NAME="entityMatching Coverage Results" MODIFIED="1619972801759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/code$patternMatching.coverage" NAME="patternMatching Coverage Results" MODIFIED="1617772325322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/code$test.coverage" NAME="test Coverage Results" MODIFIED="1618154482660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/code$dataFusion.coverage" NAME="dataFusion Coverage Results" MODIFIED="1619507863703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/code$dataFusion.coverage" NAME="dataFusion Coverage Results" MODIFIED="1619543918638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/code$missingImputation.coverage" NAME="missingImputation Coverage Results" MODIFIED="1620142808120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
